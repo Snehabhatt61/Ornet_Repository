@@ -1,0 +1,160 @@
+/* ProductDetails.css */
+.product-details-root {
+    /* min-h-screen bg-surface */
+}
+
+.product-details-main {
+    /* pt-24 pb-16 max-w-screen-xl mx-auto px-6 */
+}
+
+.product-details-grid {
+    /* grid grid-cols-1 lg:grid-cols-12 gap-8 items-start */
+}
+
+.product-details-image-section {
+    /* lg:col-span-7 */
+}
+
+.product-details-image-wrapper {
+    /* relative aspect-square bg-surface-container overflow-hidden rounded-xl */
+}
+
+.product-details-image {
+    /* w-full h-full object-cover */
+}
+
+.product-details-info-section {
+    /* lg:col-span-5 */
+}
+
+.product-details-info-card {
+    /* bg-surface-container-low rounded-xl p-6 shadow-sm */
+}
+
+.product-details-category-badge {
+    /* inline-block bg-primary-container text-on-primary-container text-xs font-bold px-3 py-1 rounded-full mb-3 */
+}
+
+.product-details-title {
+    /* text-3xl font-black tracking-tight text-[#2f2f2e] mb-2 */
+}
+
+.product-details-rating {
+    /* flex items-center gap-1 mb-4 */
+}
+
+.product-details-star {
+    /* text-primary-burnt text-sm */
+}
+
+.product-details-review-count {
+    /* text-on-surface-variant text-sm font-medium */
+}
+
+.product-details-price {
+    /* text-2xl font-black text-primary mb-4 */
+}
+
+.product-details-description {
+    /* text-on-surface-variant text-sm leading-relaxed mb-6 */
+}
+
+.product-details-divider {
+    /* border-t border-outline-variant/20 my-4 */
+}
+
+.product-details-attributes {
+    /* space-y-2 mb-6 */
+}
+
+.product-details-attribute {
+    /* flex justify-between text-sm */
+}
+
+.product-details-attribute-label {
+    /* text-on-surface-variant font-medium */
+}
+
+.product-details-attribute-value {
+    /* text-on-surface font-bold */
+}
+
+.product-details-quantity-selector {
+    /* flex items-center gap-3 mb-6 */
+}
+
+.product-details-quantity-label {
+    /* text-on-surface-variant text-sm font-medium */
+}
+
+.product-details-quantity-controls {
+    /* flex items-center bg-surface-container-low border border-outline-variant/20 rounded-full px-2 py-1 */
+}
+
+.product-details-quantity-button {
+    /* hover:text-primary p-0.5 */
+}
+
+.product-details-quantity-icon {
+    /* material-symbols-outlined text-sm */
+}
+
+.product-details-quantity-value {
+    /* mx-3 font-bold text-xs */
+}
+
+.product-details-add-to-cart-button {
+    /* w-full bg-primary text-white py-3 rounded-full font-bold text-sm hover:scale-[1.02] transition-all shadow-lg shadow-primary/20 */
+}
+
+.product-details-trust-badges {
+    /* mt-6 space-y-3 */
+}
+
+.product-details-trust-badge {
+    /* flex items-center gap-3 text-on-surface-variant text-xs */
+}
+
+.product-details-trust-icon {
+    /* material-symbols-outlined text-secondary text-lg */
+}
+
+.product-details-recommended {
+    /* mt-16 relative */
+}
+
+.product-details-recommended-header {
+    /* flex flex-col mb-8 */
+}
+
+.product-details-recommended-label {
+    /* text-primary font-bold uppercase tracking-[0.2em] text-[10px] */
+}
+
+.product-details-recommended-title {
+    /* text-3xl font-black tracking-tighter mt-1 text-[#2f2f2e] */
+}
+
+.product-details-recommended-grid {
+    /* grid grid-cols-1 md:grid-cols-4 gap-4 */
+}
+
+.product-details-recommended-card {
+    /* group cursor-pointer */
+}
+
+.product-details-recommended-image-wrapper {
+    /* relative aspect-[4/5] bg-surface-container overflow-hidden rounded-lg mb-3 border border-outline-variant/10 */
+}
+
+.product-details-recommended-image {
+    /* w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 */
+}
+
+.product-details-recommended-name {
+    /* text-sm font-bold tracking-tight text-[#2f2f2e] */
+}
+
+.product-details-recommended-price {
+    /* text-primary font-black text-sm */
+}

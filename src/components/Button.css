@@ -1,0 +1,58 @@
+/* Button.css – uses CSS variables defined in Theme.css */
+.button-root {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition: background 0.2s, color 0.2s, transform 0.1s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Variant colors */
+.button-primary {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+
+.button-secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-on-secondary);
+}
+
+.button-outline {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+}
+
+.button-text {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: none;
+}
+
+/* Size variants */
+.button-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.button-md {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.button-lg {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+}
+
+/* Hover/focus states */
+.button-primary:hover,
+.button-secondary:hover,
+.button-outline:hover,
+.button-text:hover {
+    transform: scale(1.02);
+}

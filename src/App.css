@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+/* Custom design system styles */
+
+/* Dashed border utility */
+.dashed-border {
+    background-image: linear-gradient(to right, currentColor 50%, transparent 0%);
+    background-position: bottom;
+    background-size: 20px 2px;
+    background-repeat: repeat-x;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Clipboard clip visual */
+.clipboard-clip {
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 48px;
+    height: 20px;
+    background: linear-gradient(135deg, #FF8C42 0%, #FF7F00 100%);
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Trust strip icons container */
+.trust-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255, 127, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Material Symbols outline fix */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }
 
-.App-link {
-  color: #61dafb;
+/* Category card accent colors */
+.category-accent-1 {
+    border-color: #009999;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.category-accent-2 {
+    border-color: #FF8C42;
+}
+
+.category-accent-3 {
+    border-color: #E65C00;
+}
+
+.category-accent-4 {
+    border-color: #FF8C42;
+}
+
+.category-clip-1 {
+    background: linear-gradient(135deg, #009999 0%, #008080 100%);
+}
+
+.category-clip-2 {
+    background: linear-gradient(135deg, #FF8C42 0%, #FF7F00 100%);
+}
+
+.category-clip-3 {
+    background: linear-gradient(135deg, #E65C00 0%, #CC4D00 100%);
+}
+
+.category-clip-4 {
+    background: linear-gradient(135deg, #FF8C42 0%, #FF7F00 100%);
 }

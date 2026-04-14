@@ -1,0 +1,44 @@
+/* Navbar.css */
+.navbar-root {
+    /* sticky top-0 w-full z-50 bg-surface/70 backdrop-blur-xl border-b-1 border-dashed border-outline/30 shadow-[0_20px_20px_-15px_rgba(255,127,0,0.08)] px-4 md:px-6 py-2.5 md:py-4 flex justify-between items-center */
+}
+
+.navbar-menu-button {
+    /* text-primary hover:scale-105 transition-transform duration-300 md:hidden */
+}
+
+.navbar-logo-container {
+    /* flex items-center gap-2 md:gap-4 */
+}
+
+.navbar-logo-image {
+    /* h-5 md:h-10 w-auto mix-blend-multiply opacity-80 */
+}
+
+.navbar-logo-text {
+    /* text-base md:text-2xl font-bold text-primary italic tracking-tight font-headline whitespace-nowrap */
+}
+
+.navbar-hidden-links {
+    /* hidden lg:flex items-center space-x-8 */
+}
+
+.navbar-link {
+    /* text-on-surface-variant hover:text-primary transition-colors font-medium */
+}
+
+.navbar-action-group {
+    /* flex items-center space-x-2.5 md:space-x-6 */
+}
+
+.navbar-action-button {
+    /* text-primary hover:scale-105 transition-transform duration-300 */
+}
+
+.navbar-action-icon {
+    /* text-lg md:text-2xl */
+}
+
+.navbar-counter-badge {
+    /* absolute -top-1 -right-1 bg-primary text-white text-[7px] md:text-[10px] font-bold px-1 py-0.2 md:px-1.5 md:py-0.5 rounded-full */
+}

@@ -1,0 +1,72 @@
+/* ProductDetails.css */
+.product-details-root {
+    /* min-h-screen bg-surface */
+}
+
+.product-details-header {
+    /* bg-on-surface text-white py-12 */
+}
+
+.product-details-image {
+    /* relative overflow-hidden aspect-square */
+}
+
+.product-details-image-hover {
+    /* group-hover:scale-105 transition-transform duration-300 */
+}
+
+.product-details-category-badge {
+    /* absolute top-3 left-3 bg-primary text-white text-xs px-3 py-1 rounded-full */
+}
+
+.product-details-title {
+    /* text-3xl md:text-4xl font-bold text-on-surface mb-4 */
+}
+
+.product-details-description {
+    /* text-on-surface-variant mb-8 */
+}
+
+.product-details-info {
+    /* bg-surface-container-low rounded-lg p-6 */
+}
+
+.product-details-price {
+    /* text-primary font-bold text-xl */
+}
+
+.product-details-category {
+    /* text-on-surface-variant text-sm mb-3 */
+}
+
+.product-details-artisan {
+    /* bg-surface-container-low rounded-lg p-6 mt-16 */
+}
+
+.product-details-artisan-title {
+    /* font-semibold text-on-surface mb-3 */
+}
+
+.product-details-related {
+    /* text-2xl font-bold text-on-surface mb-8 */
+}
+
+.product-details-related-grid {
+    /* grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 */
+}
+
+.product-details-related-card {
+    /* group bg-surface rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow */
+}
+
+.product-details-related-image {
+    /* relative overflow-hidden aspect-square */
+}
+
+.product-details-related-image-hover {
+    /* group-hover:scale-105 transition-transform duration-300 */
+}
+
+.product-details-related-title {
+    /* font-semibold text-on-surface group-hover:text-primary transition-colors */
+}

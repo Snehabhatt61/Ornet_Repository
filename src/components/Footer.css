@@ -1,0 +1,80 @@
+/* Footer.css */
+.footer-root {
+    /* bg-gradient-to-b from-primary-container/60 to-secondary-container/60 pt-10 md:pt-24 pb-6 md:pb-12 px-6 md:px-10 relative overflow-hidden */
+}
+
+.footer-top-border {
+    /* absolute top-0 left-0 right-0 h-1 border-t-2 border-dashed border-outline/30 */
+}
+
+.footer-content {
+    /* grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-8 md:mb-20 relative z-10 */
+}
+
+.footer-brand {
+    /* col-span-1 */
+}
+
+.footer-logo-container {
+    /* flex items-center gap-2 mb-3 md:mb-6 */
+}
+
+.footer-logo-image {
+    /* h-5 md:h-8 w-auto mix-blend-multiply opacity-80 */
+}
+
+.footer-logo-text {
+    /* text-base md:text-xl font-bold text-on-surface-variant italic font-headline */
+}
+
+.footer-description {
+    /* text-on-surface-variant font-medium text-[10px] md:text-sm mb-4 md:mb-8 leading-relaxed */
+}
+
+.footer-social-icons {
+    /* flex gap-3 */
+}
+
+.footer-social-link {
+    /* w-7 h-7 md:w-10 md:h-10 rounded-full bg-primary-container flex items-center justify-center text-on-surface-variant hover:scale-110 transition-transform shadow-sm */
+}
+
+.footer-section-title {
+    /* font-bold text-on-surface-variant mb-3 md:mb-6 uppercase tracking-widest text-[9px] md:text-xs */
+}
+
+.footer-links-list {
+    /* space-y-2 md:space-y-4 */
+}
+
+.footer-link {
+    /* text-on-surface-variant hover:text-primary transition-colors text-[10px] md:text-sm font-medium */
+}
+
+.footer-link-underline {
+    /* text-on-surface-variant hover:text-primary transition-colors text-[10px] md:text-sm font-medium underline decoration-on-surface-variant/20 decoration-2 underline-offset-4 */
+}
+
+.footer-newsletter {
+    /* flex flex-col gap-2.5 */
+}
+
+.footer-newsletter-input {
+    /* bg-white/40 border-none rounded-xl px-4 py-2 md:py-3 text-[10px] md:text-sm focus:ring-2 focus:ring-primary-container text-on-surface-variant placeholder:text-on-surface-variant/50 */
+}
+
+.footer-newsletter-button {
+    /* bg-primary-container text-on-surface-variant py-2 md:py-3 rounded-xl font-bold hover:brightness-105 transition-all shadow-sm text-[10px] md:text-sm */
+}
+
+.footer-bottom-border {
+    /* border-t border-outline/10 pt-4 md:pt-8 text-center relative z-10 */
+}
+
+.footer-copyright {
+    /* text-[9px] md:text-sm font-semibold text-on-surface-variant/70 */
+}
+
+.footer-background-blob {
+    /* absolute -bottom-10 -right-10 w-48 h-48 md:w-64 md:h-64 bg-primary-container/20 rounded-full blur-3xl */
+}

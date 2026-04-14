@@ -1,0 +1,36 @@
+/* Theme.css – defines CSS variables for the design system */
+:root {
+    /* Primary brand color (used for buttons, badges, etc.) */
+    --color-primary: #FF6B35;
+    /* Tailwind bg-primary */
+    --color-on-primary: #FFFFFF;
+    /* Text color on primary */
+
+    /* Secondary/neutral colors */
+    --color-secondary: #6C757D;
+    /* Tailwind bg-secondary */
+    --color-on-secondary: #FFFFFF;
+
+    /* Success, warning, danger */
+    --color-success: #28A745;
+    --color-on-success: #FFFFFF;
+    --color-warning: #FFC107;
+    --color-on-warning: #FFFFFF;
+    --color-danger: #DC3545;
+    --color-on-danger: #FFFFFF;
+
+    /* Neutral grays */
+    --color-gray-100: #F8F9FA;
+    --color-gray-200: #E9ECEF;
+    --color-gray-300: #DEE2E6;
+    --color-gray-400: #CED4DA;
+    --color-gray-500: #ADB5BD;
+    --color-gray-600: #868E96;
+    --color-gray-700: #495057;
+    --color-gray-800: #212529;
+    --color-gray-900: #121212;
+
+    /* Border and outline */
+    --color-border: #DDE2E6;
+    --color-outline: #E0E0E0;
+}

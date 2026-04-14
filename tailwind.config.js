@@ -1,0 +1,50 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+   darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#FF7F00",
+                        "primary-burnt": "#E65C00",
+                        "primary-container": "#FFDBB3",
+                        "on-primary": "#FFFFFF",
+                        "on-primary-container": "#4D2600",
+                        "secondary": "#008080",
+                        "secondary-electric": "#009999",
+                        "secondary-container": "#BFE0E0",
+                        "on-secondary": "#FFFFFF",
+                        "on-secondary-container": "#002020",
+                        "tertiary": "#FFBF00",
+                        "tertiary-terracotta": "#FF8C42",
+                        "tertiary-container": "#FFF3CC",
+                        "on-tertiary": "#4E443B",
+                        "on-tertiary-container": "#332600",
+                        "background": "#FFFFFF",
+                        "on-background": "#4E443B",
+                        "surface": "#FFFFFF",
+                        "on-surface": "#4E443B",
+                        "surface-container-lowest": "#FFFFFF",
+                        "surface-container-low": "#FFF9F5",
+                        "surface-container": "#FBF1E9",
+                        "surface-container-high": "#F5E9E0",
+                        "surface-container-highest": "#EFE0D5",
+                        "on-surface-variant": "#4E443B",
+                        "outline": "#857366",
+                        "outline-variant": "#D8C2B4",
+                        "primary-fixed": "#FFDBB3",
+                        "secondary-fixed": "#BFE0E0",
+                        "tertiary-fixed": "#FFF3CC",
+                    },
+                    fontFamily: {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Plus Jakarta Sans"],
+                        "label": ["Plus Jakarta Sans"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+  plugins: [],
+}

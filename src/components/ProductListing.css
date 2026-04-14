@@ -1,0 +1,59 @@
+/* ProductListing.css */
+.product-listing-root {
+    /* min-h-screen bg-surface */
+}
+
+.product-listing-header {
+    /* bg-on-surface text-white py-12 */
+}
+
+.product-listing-filters {
+    /* max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 */
+}
+
+.product-listing-category-button {
+    /* px-4 py-2 rounded-full text-sm font-medium transition-colors */
+}
+
+.product-listing-category-active {
+    /* bg-primary text-white */
+}
+
+.product-listing-category-hover {
+    /* bg-surface-container-high text-on-surface hover:bg-surface-container-highest */
+}
+
+.product-listing-sort-container {
+    /* bg-surface-container rounded-lg shadow-sm p-6 mb-8 */
+}
+
+.product-listing-sort-label {
+    /* text-on-surface-variant text-sm */
+}
+
+.product-listing-sort-select {
+    /* border border-outline-variant rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary */
+}
+
+/* Custom dropdown styles */
+.product-listing-dropdown {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-top: 0.5rem;
+    width: 100%;
+    background: var(--tw-bg-surface-container-lowest);
+    border: 1px solid var(--tw-border-outline-variant/30);
+    border-radius: 0.75rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-listing-dropdown-item {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.product-listing-dropdown-item:hover {
+    background: var(--tw-bg-surface-container-low);
+}

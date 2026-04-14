@@ -1,0 +1,18 @@
+/* IconButton.css */
+.icon-button-root {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0.25rem;
+    border-radius: 0.375rem;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.icon-button-root:hover {
+    background: var(--tw-bg-primary);
+    color: var(--tw-text-on-primary);
+    transform: scale(1.05);
+}

@@ -1,0 +1,30 @@
+/* InputGroup.css – uses CSS variables defined in Theme.css */
+.input-group-root {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.input-group-input {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    background: transparent;
+    font-size: 0.875rem;
+    color: var(--color-gray-700);
+}
+
+.input-group-button {
+    padding: 0.5rem 0.75rem;
+    border-left: 1px solid var(--color-border);
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.input-group-button:hover {
+    background-color: var(--color-primary-burnt);
+}
