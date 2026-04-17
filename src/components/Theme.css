@@ -1,36 +1,48 @@
 /* Theme.css – defines CSS variables for the design system */
+/* Primary brand color (used for buttons, badges, etc.) */
+
 :root {
-    /* Primary brand color (used for buttons, badges, etc.) */
-    --color-primary: #FF6B35;
-    /* Tailwind bg-primary */
+    /* Primary */
+    --color-primary: #FF7F00;
+    --color-primary-burnt: #E65C00;
+    --color-primary-container: #FFDBB3;
     --color-on-primary: #FFFFFF;
-    /* Text color on primary */
+    --color-on-primary-container: #4D2600;
 
-    /* Secondary/neutral colors */
-    --color-secondary: #6C757D;
-    /* Tailwind bg-secondary */
+    /* Secondary */
+    --color-secondary: #008080;
+    --color-secondary-electric: #009999;
+    --color-secondary-container: #BFE0E0;
     --color-on-secondary: #FFFFFF;
+    --color-on-secondary-container: #002020;
 
-    /* Success, warning, danger */
-    --color-success: #28A745;
-    --color-on-success: #FFFFFF;
-    --color-warning: #FFC107;
-    --color-on-warning: #FFFFFF;
-    --color-danger: #DC3545;
-    --color-on-danger: #FFFFFF;
+    /* Tertiary */
+    --color-tertiary: #FFBF00;
+    --color-tertiary-terracotta: #FF8C42;
+    --color-tertiary-container: #FFF3CC;
+    --color-on-tertiary: #4E443B;
+    --color-on-tertiary-container: #332600;
 
-    /* Neutral grays */
-    --color-gray-100: #F8F9FA;
-    --color-gray-200: #E9ECEF;
-    --color-gray-300: #DEE2E6;
-    --color-gray-400: #CED4DA;
-    --color-gray-500: #ADB5BD;
-    --color-gray-600: #868E96;
-    --color-gray-700: #495057;
-    --color-gray-800: #212529;
-    --color-gray-900: #121212;
+    /* Background & Surface */
+    --color-background: #FFFFFF;
+    --color-on-background: #4E443B;
+    --color-surface: #FFFFFF;
+    --color-on-surface: #4E443B;
 
-    /* Border and outline */
-    --color-border: #DDE2E6;
-    --color-outline: #E0E0E0;
+    /* Surface Variants */
+    --color-surface-container-lowest: #FFFFFF;
+    --color-surface-container-low: #FFF9F5;
+    --color-surface-container: #FBF1E9;
+    --color-surface-container-high: #F5E9E0;
+    --color-surface-container-highest: #EFE0D5;
+
+    /* Utility */
+    --color-on-surface-variant: #4E443B;
+    --color-outline: #857366;
+    --color-outline-variant: #D8C2B4;
+
+    /* Fixed (for consistent theming across modes) */
+    --color-primary-fixed: #FFDBB3;
+    --color-secondary-fixed: #BFE0E0;
+    --color-tertiary-fixed: #FFF3CC;
 }

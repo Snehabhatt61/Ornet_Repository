@@ -98,10 +98,10 @@ const ProductListing = () => {
   return (
     <div className="min-h-screen bg-surface">
       {/* Page Header */}
-      <div className="bg-on-surface text-white py-12">
+      <div className="py-12 text-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold mb-2">Product Collection</h1>
-          <p className="text-gray-300">Explore our curated artisan crafts</p>
+          <h1 className="text-4xl font-bold mb-2 md:text-6xl font-black text-on-surface tracking-tight leading-none font-headline">Product Collection</h1>
+          {/* <p className="text-gray-300">Explore our curated artisan crafts</p> */}
         </div>
       </div>
 

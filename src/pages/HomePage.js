@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../components/HomePageStyles.css';
+import Icon from '../components/Icon';
+import { ICONS } from '../components/icons';
 
 const HomePage = () => {
   const featuredProducts = [
@@ -37,7 +39,7 @@ const HomePage = () => {
   return (
     <div className="min-h-screen">
       {/* Featured Products */}
-      <section className="relative min-h-[350px] md:min-h-[500px] flex flex-col items-center justify-center px-4 md:px-6 py-10 md:py-20 text-center bg-gradient-to-b from-primary-container/40 to-white">
+      <section className="relative min-h-[350px] md:min-h-[500px] flex flex-col items-center justify-center px-4 md:px-6 py-10 md:py-20 text-center bg-hero-gradient">
         <div className="absolute inset-0 z-0 overflow-hidden">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] md:w-[120%] h-[120%] bg-gradient-to-br from-primary-container/20 via-transparent to-secondary-container/20 rounded-full blur-3xl"></div>
         </div>
@@ -56,10 +58,10 @@ const HomePage = () => {
                 type="text"
               />
               <div className="absolute left-6 top-1/2 -translate-y-1/2 text-primary hidden md:block">
-                <span className="material-symbols-outlined text-3xl">search</span>
+                <Icon name={ICONS.SEARCH} size="3xl" />
               </div>
               <div className="absolute left-6 top-[22px] md:top-1/2 -translate-y-1/2 text-primary md:hidden">
-                <span className="material-symbols-outlined text-xl">search</span>
+                <Icon name={ICONS.SEARCH} size="xl" />
               </div>
               <button className="mt-3 md:mt-0 md:absolute md:right-3 md:top-1/2 md:-translate-y-1/2 bg-primary-burnt text-white px-5 md:px-8 py-2.5 md:py-3.5 rounded-full font-bold hover:scale-105 transition-transform shadow-lg text-xs md:text-base">
                 Find Magic
@@ -77,7 +79,7 @@ const HomePage = () => {
             <div className="h-1 w-12 md:h-1.5 md:w-24 bg-primary-container rounded-full mx-auto md:mx-0"></div>
           </div>
           <a className="text-primary text-xs md:text-base font-bold flex items-center gap-1.5 hover:gap-4 transition-all" href="#">
-            Explore All Collections <span className="material-symbols-outlined text-base md:text-2xl">arrow_forward</span>
+            Explore All Collections <Icon name={ICONS.ARROW_FORWARD} size="md" className="md:text-2xl" />
           </a>
         </div>
 
@@ -151,7 +153,22 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
+        {/* <!-- Full Width Banner --> */}
+      <section class="relative w-full h-[300px] overflow-hidden">
+        <img class="absolute inset-0 w-full h-full object-cover" 
+        data-alt="Beautifully arranged handcrafted jewelry and resin art on a clean wooden workbench with soft natural sunlight streaming through a window" 
+        src="/assets/top-view-christmas-shopping-composition.jpg"
+        alt='customizable_gift_banner'/>
+        <div class="absolute inset-0 bg-black/30 flex flex-col justify-center flex-end px-12 md:px-24 text-white">
+          <div class="max-w-xl space-y-6">
+          <h2 class="text-3xl md:text-3xl font-bold leading-tight">Unique Gifts for Every Story.</h2>
+          {/* <p class="text-md opacity-90">Personalized and handcrafted from the maker's bench, designed to last a lifetime.</p> */}
+          <button class="artisan-gradient px-10 py-4 rounded-full text-lg font-semibold shadow-xl hover:scale-105 transition-transform">
+              Customize Now
+          </button>
+          </div>
+        </div>
+      </section>
       {/* Community Bestsellers */}
       <section className="px-4 md:px-10 py-10 md:py-24 bg-surface-container-lowest">
         <div className="text-center mb-8 md:mb-16">
@@ -169,7 +186,7 @@ const HomePage = () => {
                 alt="Mandala Art Base"
               />
               <button className="absolute top-3 right-3 md:top-4 md:right-4 bg-white/80 backdrop-blur-md p-1.5 md:p-2 rounded-full text-primary hover:bg-primary hover:text-white transition-colors shadow-sm">
-                <span className="material-symbols-outlined text-base md:text-2xl">favorite</span>
+                <Icon name={ICONS.FAVORITE} size="base" className="md:text-2xl" />
               </button>
               <div className="absolute bottom-3 left-3 right-3 translate-y-0 md:translate-y-12 opacity-100 md:opacity-0 md:group-hover:translate-y-0 md:group-hover:opacity-100 transition-all duration-300">
                 <button className="w-full bg-primary text-white py-1.5 md:py-3 rounded-full font-bold shadow-lg text-xs md:text-base">Quick Add</button>
@@ -277,9 +294,10 @@ const HomePage = () => {
 
         </div>
       </section>
+      
 
       {/* Trust Strip */}
-      <section className="w-full bg-primary-container/20 py-10 md:py-20 px-6 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 text-center">
+      <section className="w-full bg-surface-container-low py-10 md:py-20 px-6 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 text-center">
         <div className="flex flex-col items-center gap-3 md:gap-6 group">
           <div className="w-14 h-14 md:w-24 md:h-24 bg-secondary/5 rounded-2xl flex items-center justify-center text-on-surface-variant shadow-sm group-hover:shadow-md transition-shadow">
             <span className="material-symbols-outlined text-2xl md:text-5xl">flag</span>

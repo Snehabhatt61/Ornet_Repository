@@ -170,3 +170,19 @@
 .recommended-pagination-dot-inactive {
     /* w-1.5 h-1.5 rounded-full bg-outline-variant/40 hover:bg-outline-variant transition-all */
 }
+
+.cart-card {
+    border-radius: 2rem;
+    border-width: 1px;
+    border-color: rgb(175 173 172 / 0.3);
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+    padding: 1rem;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.button-gradient {
+    background: linear-gradient(135deg, #a33700 0%, #ff7943 100%);
+}

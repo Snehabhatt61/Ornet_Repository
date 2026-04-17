@@ -1,44 +1,44 @@
 import React, { useState } from 'react';
-// import { Link } from 'react-router-dom';
 import './ShoppingCart.css';
+import Icon from '../components/Icon';
+import { ICONS } from '../components/icons';
 
 const ShoppingCart = () => {
   const [cartItems, setCartItems] = useState([
     {
       id: 1,
-      name: 'MDF Jali Jharokha',
+      name: 'MDF Jali Jali',
       price: 2499,
       quantity: 1,
-      image: 'https://images.unsplash.com/photo-1615529182904-14819c35db37?w=200&h=200&fit=crop'
+      image: 'https://images.unsplash.com/photo-1615529182904-14819c35db37?w=200&h=200&fit=crop',
     },
     {
       id: 2,
       name: 'Handcrafted Wooden Box',
       price: 1899,
       quantity: 2,
-      image: 'https://images.unsplash.com/photo-1594040226829-7f251ab46d80?w=200&h=200&fit=crop'
+      image: 'https://images.unsplash.com/photo-1594040226829-7f251ab46d80?w=200&h=200&fit=crop',
     },
     {
       id: 3,
       name: 'Brass Decorative Lamp',
       price: 3299,
       quantity: 1,
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop'
-    }
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop',
+    },
   ]);
 
   const updateQuantity = (id, newQuantity) => {
     if (newQuantity < 1) return;
     setCartItems(items =>
-      items.map(item =>
-        item.id === id ? { ...item, quantity: newQuantity } : item
-      )
+      items.map(item => (item.id === id ? { ...item, quantity: newQuantity } : item))
     );
   };
 
-  const removeItem = (id) => {
+  const removeItem = id => {
     setCartItems(items => items.filter(item => item.id !== id));
   };
+
 
   const subtotal = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
   const shipping = 199;

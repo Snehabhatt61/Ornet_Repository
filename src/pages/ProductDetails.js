@@ -162,7 +162,7 @@ const ProductDetails = () => {
                   +
                 </button>
               </div>
-              <button className="flex-1 bg-primary text-white py-3 px-6 rounded-lg font-semibold hover:bg-primary-burnt transition-colors">
+              <button className="button-gradient flex-1 bg-primary text-white py-3 px-6 rounded-lg font-semibold hover:bg-primary-burnt transition-colors">
                 Add to Cart
               </button>
               <button className="p-3 border border-outline-variant rounded-lg hover:border-primary hover:text-primary transition-colors">

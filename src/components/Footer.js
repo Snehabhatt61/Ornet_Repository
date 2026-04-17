@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
+import Icon from './Icon';
+import { ICONS } from './icons';
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-b from-primary-container/60 to-secondary-container/60 pt-10 md:pt-24 pb-6 md:pb-12 px-6 md:px-10 relative overflow-hidden">
+    <footer className="bg-footer-gradient pt-10 md:pt-24 pb-6 md:pb-12 px-6 md:px-10 relative overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-1 border-t-2 border-dashed border-outline/30"></div>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-8 md:mb-20 relative z-10">
@@ -21,14 +23,14 @@ const Footer = () => {
           <p className="text-on-surface-variant font-medium text-[10px] md:text-sm mb-4 md:mb-8 leading-relaxed">
             Your one-stop atelier for all things creative. We believe everyone has an artist within. Let us help you find yours.
           </p>
-          <div className="flex gap-3">
-            <a className="w-7 h-7 md:w-10 md:h-10 rounded-full bg-primary-container flex items-center justify-center text-on-surface-variant hover:scale-110 transition-transform shadow-sm" href="#">
-              <span className="material-symbols-outlined text-base md:text-xl">public</span>
-            </a>
-            <a className="w-7 h-7 md:w-10 md:h-10 rounded-full bg-primary-container flex items-center justify-center text-on-surface-variant hover:scale-110 transition-transform shadow-sm" href="#">
-              <span className="material-symbols-outlined text-base md:text-xl">alternate_email</span>
-            </a>
-          </div>
+            <div className="flex gap-3">
+              <a className="w-7 h-7 md:w-10 md:h-10 rounded-full bg-primary-container flex items-center justify-center text-on-surface-variant hover:scale-110 transition-transform shadow-sm" href="#">
+                <Icon name={ICONS.PUBLIC} size="base" />
+              </a>
+              <a className="w-7 h-7 md:w-10 md:h-10 rounded-full bg-primary-container flex items-center justify-center text-on-surface-variant hover:scale-110 transition-transform shadow-sm" href="#">
+                <Icon name={ICONS.ALTERNATE_EMAIL} size="base" />
+              </a>
+            </div>
         </div>
 
         {/* Shop By */}
